@@ -1,0 +1,40 @@
+# 本地 clone 证据（2026-11-22，Windows / Git Bash）
+# 实际执行命令: git clone https://github.com/neolaf2/neoskills.git
+# 真实输出: Cloning into 'neoskills'...（随后完成，无报错）
+
+$ git remote -v
+origin	https://github.com/neolaf2/neoskills.git (fetch)
+origin	https://github.com/neolaf2/neoskills.git (push)
+
+$ git log --oneline -1 main
+7c4dada chore: bump to 0.4.2 — fix version string in installed package
+
+$ ls -la
+total 312
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 10:04 .
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 10:09 ..
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 .claude-plugin
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 10:01 .git
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 .github
+-rw-r--r-- 1 WZJ 197121    130 Nov 22 09:53 .gitignore
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 10:04 .pytest_cache
+-rw-r--r-- 1 WZJ 197121      6 Nov 22 09:53 .python-version
+-rw-r--r-- 1 WZJ 197121   5139 Nov 22 09:53 CLAUDE.md
+-rw-r--r-- 1 WZJ 197121    474 Nov 22 09:53 Dockerfile
+-rw-r--r-- 1 WZJ 197121   1090 Nov 22 09:53 LICENSE
+-rw-r--r-- 1 WZJ 197121  13606 Nov 22 09:53 README.md
+-rw-r--r-- 1 WZJ 197121  13483 Nov 22 09:58 README.zh-CN.md
+-rw-r--r-- 1 WZJ 197121   3115 Nov 22 09:53 TASKS.md
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 agents
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 commands
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 docs
+-rw-r--r-- 1 WZJ 197121     93 Nov 22 09:53 main.py
+-rw-r--r-- 1 WZJ 197121  11759 Nov 22 09:53 neoskills_v0_1.md
+-rw-r--r-- 1 WZJ 197121  26366 Nov 22 09:53 neoskills_v0_2.md
+-rw-r--r-- 1 WZJ 197121   6773 Nov 22 09:53 neoskills_v0_21.md
+-rw-r--r-- 1 WZJ 197121  22430 Nov 22 09:53 neoskills_v0_3.md
+-rw-r--r-- 1 WZJ 197121   1635 Nov 22 09:53 pyproject.toml
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 skills
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 src
+drwxr-xr-x 1 WZJ 197121      0 Nov 22 09:53 tests
+-rw-r--r-- 1 WZJ 197121 173794 Nov 22 09:53 uv.lock

@@ -1,0 +1,74 @@
+====================================================
+C5A GitHub 账号信息登记表
+姓名：WangChunYan
+完成日期：2026-11-22
+====================================================
+
+【一、账号信息】
+
+GitHub 用户名：Lin-cube
+个人主页链接：https://github.com/Lin-cube
+
+说明：
+1. 本挑战沿用本人已有的 GitHub 账号 Lin-cube（注册于 2026-09-15），未另注册新号。
+   原计划名 “WangChunYan-elite20” 仅保留为个人仓库名称。
+2. GitHub 用户名不区分大小写但保留显示大小写，注册后长期可改（一年一次）。
+3. 本机提交署名固定为 Lin-cube <2082128917@qq.com>，与 GitHub 账号一致。
+
+【二、个人仓库信息】
+
+仓库名：WangChunYan-elite20
+仓库地址：https://github.com/Lin-cube/WangChunYan-elite20
+默认分支：main
+仓库用途：C5A 个人作品集仓库（README 自我介绍 + 仓库分析文档 + 贡献记录）
+
+【三、Fork 仓库信息】
+
+原仓库：https://github.com/neolaf2/neoskills
+我的 Fork：https://github.com/Lin-cube/neoskills
+贡献分支：my-contribution（commit e7e10e0，新增 README.zh-CN.md）
+
+【四、实际使用信息（已填写，2026-11-22 完成）】
+
+实际 GitHub 用户名：Lin-cube
+实际个人主页链接：https://github.com/Lin-cube
+实际个人仓库链接：https://github.com/Lin-cube/WangChunYan-elite20
+实际 Fork 仓库链接：https://github.com/Lin-cube/neoskills
+
+验证方式：
+1. 个人仓库内 README.md 已写入姓名、专业、一句话介绍与文档索引。
+2. Fork 仓库的 my-contribution 分支可见，commit e7e10e0 的 tree sha
+   为 f0912a4490c286399c54daf39b945afe24ff6c08，与本地提交完全一致（逐字节核对）。
+3. 本地 origin 已改为 https://github.com/Lin-cube/neoskills.git。
+
+【五、注册账号步骤（约 5 分钟）】
+
+1. 打开 https://github.com/signup
+2. 输入邮箱 → 设置密码 → 设置用户名（建议 WangChunYan-elite20）
+3. 完成邮箱验证（查收验证邮件并点击链接）
+4. 完成人机验证（CAPTCHA）
+5. 登录后访问 https://github.com/settings/profile 补全资料：
+   Name 填 “WangChunYan”
+6. 创建个人仓库：
+   右上角 “+” → New repository → 仓库名 WangChunYan-elite20
+   → 勾选 “Add a README file” → Create repository
+7. 打开 https://github.com/neolaf2/neoskills → 点击右上角 “Fork” → 选择自己的账号
+
+【六、推送命令与执行结果（Level 3 交付，已执行）】
+
+执行的两条命令：
+
+   git remote set-url origin https://github.com/Lin-cube/neoskills.git
+   git push -u origin my-contribution
+
+执行结果：
+   - 推送成功，远端新建分支 my-contribution，并建立 upstream 跟踪 origin/my-contribution。
+   - 远端 commit e7e10e0 的 tree sha = f0912a4490c286399c54daf39b945afe24ff6c08，
+     与本地 git rev-parse HEAD^{tree} 完全一致，说明推送内容逐字节相同。
+   - 网页查看：https://github.com/Lin-cube/neoskills/tree/my-contribution
+   - 可选：向原仓库发起 Pull Request
+     https://github.com/neolaf2/neoskills/compare/main...Lin-cube:neoskills:my-contribution
+
+----------------------------------------------------
+备注：本文件按 CHALLENGE.md 交付要求命名为
+      WangChunYan_C5A_GitHub账号.txt

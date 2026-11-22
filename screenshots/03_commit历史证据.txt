@@ -1,0 +1,22 @@
+# commit 历史证据（2026-11-22）
+
+$ git log --oneline -5
+e7e10e0 docs: add Chinese (Simplified) translation of README (README.zh-CN.md)
+7c4dada chore: bump to 0.4.2 — fix version string in installed package
+abb757c ci: fix CI failures — ruff format, upgrade actions to Node.js 24
+340a416 fix: path containment bug in Linker and frontmatter parser
+31e04df docs: rewrite README, update CLAUDE.md and TASKS.md for v0.4.1
+
+$ git show --stat HEAD
+commit e7e10e074cb0b427a4890e15badb0d7611361398
+Author: WangChunYan <wangchunyan@users.noreply.github.com>
+Date:   Sun Nov 22 09:58:36 2026 +0800
+
+    docs: add Chinese (Simplified) translation of README (README.zh-CN.md)
+
+ README.zh-CN.md | 421 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 421 insertions(+)
+
+$ git config user.name; git config user.email
+WangChunYan
+wangchunyan@users.noreply.github.com

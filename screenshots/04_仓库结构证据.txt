@@ -1,0 +1,36 @@
+# 仓库结构证据（2026-11-22）
+
+$ find . -path ./.git -prune -o -type d -print | sort | head -40
+.
+./.claude-plugin
+./.github
+./.github/workflows
+./.pytest_cache
+./.pytest_cache/v
+./.pytest_cache/v/cache
+./agents
+./commands
+./docs
+./docs/plans
+./skills
+./skills/bank-status
+./skills/skill-dedup
+./skills/skill-dedup/scripts
+./src
+./src/neoskills
+./src/neoskills/adapters
+./src/neoskills/adapters/claude
+./src/neoskills/adapters/openclaw
+./src/neoskills/adapters/opencode
+./src/neoskills/cli
+./src/neoskills/core
+./src/neoskills/meta
+./src/neoskills/ontology
+./src/neoskills/ontology/templates
+./src/neoskills/plugin
+./src/neoskills/runtime
+./src/neoskills/runtime/claude
+./src/neoskills/translators
+./tests
+./tests/integration
+./tests/unit

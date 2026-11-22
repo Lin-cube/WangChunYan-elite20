@@ -1,0 +1,10 @@
+# 分支创建证据（2026-11-22）
+# 实际执行命令: git checkout -b my-contribution
+# 真实输出: Switched to a new branch 'my-contribution'
+
+$ git branch
+  main
+* my-contribution
+
+$ git status -sb
+## my-contribution
